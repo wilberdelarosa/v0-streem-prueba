@@ -85,7 +85,7 @@ const mockComics: Comic[] = [
     publisher: "DC Comics",
     description: "¿Qué hubiera pasado si Superman hubiera aterrizado en la Unión Soviética en lugar de Kansas?",
     price: "17.99",
-    image: "/placeholder.svg?height=600&width=400&query=Superman Red Son comic cover",
+    image: "/superman-red-son-cover.png",
     year: 2003,
     author: "Mark Millar, Dave Johnson",
     pages: 168,
@@ -98,7 +98,7 @@ const mockComics: Comic[] = [
     description:
       "Una poderosa historia gráfica sobre el Holocausto, donde los judíos son representados como ratones y los nazis como gatos.",
     price: "15.99",
-    image: "/placeholder.svg?height=600&width=400&query=Maus comic cover",
+    image: "/maus-comic-cover.png",
     year: 1991,
     author: "Art Spiegelman",
     pages: 296,
@@ -111,7 +111,7 @@ const mockComics: Comic[] = [
     description:
       "Kingpin descubre la identidad secreta de Daredevil y procede a destruir sistemáticamente la vida de Matt Murdock.",
     price: "19.99",
-    image: "/placeholder.svg?height=600&width=400&query=Daredevil Born Again comic cover",
+    image: "/daredevil-born-again-cover.png",
     year: 1986,
     author: "Frank Miller, David Mazzucchelli",
     pages: 256,
@@ -124,7 +124,7 @@ const mockComics: Comic[] = [
     description:
       "En un futuro distópico, un misterioso revolucionario conocido como 'V' trabaja para derrocar un régimen totalitario en el Reino Unido.",
     price: "16.99",
-    image: "/placeholder.svg?height=600&width=400&query=V for Vendetta comic cover",
+    image: "/v-for-vendetta-cover.png",
     year: 1988,
     author: "Alan Moore, David Lloyd",
     pages: 296,
@@ -137,7 +137,7 @@ const mockComics: Comic[] = [
     description:
       "Sigue las aventuras de Dream, uno de los Eternos, mientras recupera sus objetos de poder después de décadas de cautiverio.",
     price: "19.99",
-    image: "/placeholder.svg?height=600&width=400&query=Sandman comic cover",
+    image: "/sandman-comic-cover.png",
     year: 1989,
     author: "Neil Gaiman, Sam Kieth",
     pages: 240,
@@ -150,7 +150,7 @@ const mockComics: Comic[] = [
     description:
       "Un demonio criado como humano trabaja para la Oficina de Investigación y Defensa Paranormal, combatiendo fuerzas sobrenaturales.",
     price: "17.99",
-    image: "/placeholder.svg?height=600&width=400&query=Hellboy comic cover",
+    image: "/hellboy-comic-cover.png",
     year: 1994,
     author: "Mike Mignola",
     pages: 128,
@@ -163,7 +163,7 @@ const mockComics: Comic[] = [
     description:
       "En un Neo-Tokio post-apocalíptico, un miembro de una pandilla de motociclistas adquiere poderes psíquicos después de un accidente.",
     price: "24.99",
-    image: "/placeholder.svg?height=600&width=400&query=Akira manga cover",
+    image: "/akira-manga-cover.png",
     year: 1982,
     author: "Katsuhiro Otomo",
     pages: 368,
@@ -176,7 +176,7 @@ const mockComics: Comic[] = [
     description:
       "Un predicador con poderes sobrenaturales, su ex-novia y un vampiro irlandés buscan a Dios para hacerle rendir cuentas.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Preacher comic cover",
+    image: "/preacher-comic-cover.png",
     year: 1996,
     author: "Garth Ennis, Steve Dillon",
     pages: 136,
@@ -189,7 +189,7 @@ const mockComics: Comic[] = [
     description:
       "Un misterioso evento mata simultáneamente a todos los mamíferos con cromosoma Y en la Tierra, excepto a un hombre y su mono mascota.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Y The Last Man comic cover",
+    image: "/y-last-man-comic-cover.png",
     year: 2002,
     author: "Brian K. Vaughan, Pia Guerra",
     pages: 128,
@@ -201,7 +201,7 @@ const mockComics: Comic[] = [
     publisher: "Marvel",
     description: "T'Challa regresa a Wakanda para encontrar su nación al borde de la guerra civil.",
     price: "16.99",
-    image: "/placeholder.svg?height=600&width=400&query=Black Panther comic cover",
+    image: "/black-panther-comic-cover.png",
     year: 2016,
     author: "Ta-Nehisi Coates, Brian Stelfreeze",
     pages: 144,
@@ -214,7 +214,7 @@ const mockComics: Comic[] = [
     description:
       "Una autobiografía gráfica que narra la infancia y juventud de Marjane Satrapi durante y después de la Revolución Islámica en Irán.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Persepolis comic cover",
+    image: "/persepolis-comic-cover.png",
     year: 2000,
     author: "Marjane Satrapi",
     pages: 160,
@@ -227,7 +227,7 @@ const mockComics: Comic[] = [
     description:
       "Un periodista gonzo en un futuro distópico lucha contra la corrupción política y los abusos de poder.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Transmetropolitan comic cover",
+    image: "/transmetropolitan-comic-cover.png",
     year: 1997,
     author: "Warren Ellis, Darick Robertson",
     pages: 144,
@@ -240,7 +240,7 @@ const mockComics: Comic[] = [
     description:
       "Personajes de cuentos de hadas viven en secreto en Nueva York después de ser expulsados de sus tierras mágicas.",
     price: "12.99",
-    image: "/placeholder.svg?height=600&width=400&query=Fables comic cover",
+    image: "/fables-comic-cover.png",
     year: 2002,
     author: "Bill Willingham, Lan Medina",
     pages: 128,
@@ -253,7 +253,7 @@ const mockComics: Comic[] = [
     description:
       "El hijo adolescente del superhéroe más poderoso del mundo comienza a desarrollar sus propios poderes.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Invincible comic cover",
+    image: "/invincible-comic-cover.png",
     year: 2003,
     author: "Robert Kirkman, Cory Walker",
     pages: 128,
@@ -266,7 +266,7 @@ const mockComics: Comic[] = [
     description:
       "Steve Rogers se enfrenta a un fantasma de su pasado cuando un asesino soviético conocido como el Soldado de Invierno reaparece.",
     price: "19.99",
-    image: "/placeholder.svg?height=600&width=400&query=Captain America Winter Soldier comic cover",
+    image: "/captain-america-winter-soldier-cover.png",
     year: 2005,
     author: "Ed Brubaker, Steve Epting",
     pages: 304,
@@ -279,7 +279,7 @@ const mockComics: Comic[] = [
     description:
       "Después de un trágico evento, tres hermanos se mudan a la antigua casa familiar donde descubren llaves mágicas con poderes extraordinarios.",
     price: "19.99",
-    image: "/placeholder.svg?height=600&width=400&query=Locke and Key comic cover",
+    image: "/locke-and-key-comic-cover.png",
     year: 2008,
     author: "Joe Hill, Gabriel Rodríguez",
     pages: 152,
@@ -291,7 +291,7 @@ const mockComics: Comic[] = [
     publisher: "Cartoon Books",
     description: "Tres primos Bone son expulsados de Boneville y se encuentran perdidos en un vasto desierto.",
     price: "12.99",
-    image: "/placeholder.svg?height=600&width=400&query=Bone comic cover",
+    image: "/bone-comic-cover.png",
     year: 1991,
     author: "Jeff Smith",
     pages: 144,
@@ -304,7 +304,7 @@ const mockComics: Comic[] = [
     description:
       "Scott Pilgrim debe derrotar a los siete ex-novios malvados de su nueva novia para poder salir con ella.",
     price: "14.99",
-    image: "/placeholder.svg?height=600&width=400&query=Scott Pilgrim comic cover",
+    image: "/scott-pilgrim-comic-cover.png",
     year: 2004,
     author: "Bryan Lee O'Malley",
     pages: 168,
@@ -317,7 +317,7 @@ const mockComics: Comic[] = [
     description:
       "Un grupo disfuncional de superhéroes adoptados se reúne tras la muerte de su padre para salvar al mundo.",
     price: "17.99",
-    image: "/placeholder.svg?height=600&width=400&query=Umbrella Academy comic cover",
+    image: "/umbrella-academy-comic-cover.png",
     year: 2007,
     author: "Gerard Way, Gabriel Bá",
     pages: 184,
@@ -330,7 +330,7 @@ const mockComics: Comic[] = [
     description:
       "Sigue las aventuras del mercenario bocazas mientras rompe la cuarta pared y se enfrenta a todo tipo de amenazas.",
     price: "34.99",
-    image: "/placeholder.svg?height=600&width=400&query=Deadpool comic cover",
+    image: "/deadpool-comic-cover.png",
     year: 2013,
     author: "Daniel Way, Paco Medina",
     pages: 472,
@@ -343,7 +343,7 @@ const mockComics: Comic[] = [
     description:
       "En un futuro donde los robots son perseguidos, un niño androide despierta y podría ser la clave para salvar a la galaxia.",
     price: "9.99",
-    image: "/placeholder.svg?height=600&width=400&query=Descender comic cover",
+    image: "/descender-comic-cover.png",
     year: 2015,
     author: "Jeff Lemire, Dustin Nguyen",
     pages: 160,
@@ -356,7 +356,7 @@ const mockComics: Comic[] = [
     description:
       "Una fuerza oscura resucita a héroes y villanos caídos, obligando a los Linternas Verdes a enfrentarse a una amenaza sin precedentes.",
     price: "19.99",
-    image: "/placeholder.svg?height=600&width=400&query=Blackest Night comic cover",
+    image: "/blackest-night-comic-cover.png",
     year: 2009,
     author: "Geoff Johns, Ivan Reis",
     pages: 304,
@@ -369,7 +369,7 @@ const mockComics: Comic[] = [
     description:
       "Explora la vida cotidiana en una ciudad llena de superhéroes, desde la perspectiva de héroes, villanos y ciudadanos comunes.",
     price: "16.99",
-    image: "/placeholder.svg?height=600&width=400&query=Astro City comic cover",
+    image: "/astro-city-comic-cover.png",
     year: 1995,
     author: "Kurt Busiek, Brent Anderson",
     pages: 192,
@@ -382,7 +382,7 @@ const mockComics: Comic[] = [
     description:
       "Clint Barton, también conocido como Hawkeye, lucha contra el crimen en su vecindario cuando no está con los Vengadores.",
     price: "16.99",
-    image: "/placeholder.svg?height=600&width=400&query=Hawkeye comic cover",
+    image: "/hawkeye-comic-cover.png",
     year: 2012,
     author: "Matt Fraction, David Aja",
     pages: 136,
